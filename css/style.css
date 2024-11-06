@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/Group\ 2\ \(1\).png);
+}
+
+.container {
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #00a846;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333333;
+}
+h5{
+    text-align: start;
+    padding-bottom: 7px;
+}
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    outline: none;
+}
+#first-input{
+    padding-left: 30px;
+}
+#person-icon{
+    position: absolute;
+    left: 10px;
+    top: 33px;
+    font-weight: bold;
+    color: #00a846;
+}
+#second-input{
+    padding-left: 30px;
+}
+#envelope-icon{
+    position: absolute;
+    left: 10px;
+    top: 33px;
+    font-weight: bold;
+    color: #00a846;
+}
+#third-input{
+    padding-left: 30px;
+}
+#telephone-icon{
+    position: absolute;
+    left: 10px;
+    top: 33px;
+    font-weight: bold;
+    color: #00a846;
+}
+#fourth-input{
+    padding-left: 10px;
+}
+#eye-icon{
+    position: absolute;
+    right: 10px;
+    top: 33px;
+    font-weight: bold;
+    color: #00a846;
+}
+#img{
+    height: 30px;
+}
+
+.sign-up-button {
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    font-size: 16px;
+    background: linear-gradient(#159947, #061A23);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-up-button:hover {
+    background: linear-gradient(#00a846, #007d33);
+}
+
+.or {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #888888;
+}
+
+.google-signup {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.google-signup img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.google-signup:hover {
+    background-color: #f0f0f0;
+}
